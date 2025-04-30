@@ -1,13 +1,18 @@
 import React from 'react';
 import { Header, Hero, About, LeftBorder, RightBorder, TechStack } from './components';
+import Footer from './components/Footer';
 import { codeBg } from './assets';
+import WhatIdo from './components/WhatIdo';
+import Project from './components/Projects';
+import Certifications from './components/Certifications';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <main className="relative min-h-screen bg-black text-white">
+    <main className="relative min-h-screen bg-[#0D1117] text-white">
       {/* Border Components */}
-      <LeftBorder />
-      <RightBorder />
+      {/* <LeftBorder />
+      <RightBorder /> */}
 
       {/* Background image behind Header + Hero */}
       <div className="relative min-h-screen">
@@ -26,7 +31,11 @@ const App = () => {
       <div className="md:mx-16 md:py-8">
         <About />
         <TechStack />
+        {/* <Project /> */}
+        <Certifications />
+        <Contact />
       </div>
+      <Footer />
     </main>
   );
 };
