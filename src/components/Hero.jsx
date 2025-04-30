@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center justify-center w-full min-h-screen px-6 md:px-12 lg:px-24 text-center md:text-left">
+    <section className="flex flex-col items-center justify-center w-full  min-h-screen px-6 md:px-12 lg:px-24 text-center md:text-left ">
       <motion.p
         className="text-[#8B949E] mb-4 font-mono text-sm md:text-base"
         initial={{ opacity: 0, y: 20 }}

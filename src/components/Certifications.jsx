@@ -35,7 +35,7 @@ const Certifications = () => {
         </p>
 
 
-        <ul className="list-disc text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-2">
+        <ul className="list-disc text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-2 md:list-none">
           {certifications.map((cert, index) => (
             <li key={index} className="font-semibold">
               <a

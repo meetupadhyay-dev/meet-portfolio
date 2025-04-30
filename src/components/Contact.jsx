@@ -4,9 +4,9 @@ import { email } from '../assets';
 const Contact = () => {
   return (
     <section className="min-h-screen py-16 px-4 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
-      {/* Left Side: Contact Information */}
+
       <div className="w-full md:w-7/12 text-center md:text-left relative">
-        {/* Vertical Label */}
+
         <div className="absolute left-[35%] -top-6 md:-left-20 md:top-8 md:rotate-[-90deg] text-xs tracking-widest text-[#58A6FF]">
           <div className="flex items-center justify-center gap-2">
             <div className="w-14 h-[1px] bg-[#58A6FF]" />
@@ -14,17 +14,17 @@ const Contact = () => {
           </div>
         </div>
 
-        {/* Heading */}
+
         <h2 className="text-3xl md:text-5xl font-bold text-[#E6EDF3] leading-tight mb-6 md:mb-8 pl-4 md:pl-10">
           Get In Touch
         </h2>
 
-        {/* Description */}
+       
         <p className="text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base leading-relaxed">
           I'm always open to collaborating on exciting projects or just having a conversation. Feel free to reach out to me via the channels below:
         </p>
 
-        {/* Contact Details */}
+       
         <ul className="list-none text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-4 pl-4 md:pl-10">
           <li><span className="text-[#58A6FF] font-semibold">Email:</span> <a href="mailto:meetu551@gmail.com" className="hover:underline">meetu551@gmail.com</a></li>
          
@@ -33,7 +33,7 @@ const Contact = () => {
         </ul>
       </div>
 
-      {/* Right Side: Image */}
+     
       <div className="w-full md:w-5/12 flex justify-center md:justify-end">
         <img
           src={email}
