@@ -19,28 +19,29 @@ const Contact = () => {
           Get In Touch
         </h2>
 
-       
+
         <p className="text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base leading-relaxed">
           I'm always open to collaborating on exciting projects or just having a conversation. Feel free to reach out to me via the channels below:
         </p>
 
-       
+
         <ul className="list-none text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-4 pl-4 md:pl-10">
           <li><span className="text-[#58A6FF] font-semibold">Email:</span> <a href="mailto:meetu551@gmail.com" className="hover:underline">meetu551@gmail.com</a></li>
-         
+
           <li><span className="text-[#58A6FF] font-semibold">Instagram:</span> <a href="https://www.instagram.com/__meet25__" target="_blank" className="hover:underline">instagram.com/__meet25__</a></li>
           <li><span className="text-[#58A6FF] font-semibold">GitHub:</span> <a href="https://github.com/meetupadhyay-dev" target="_blank" className="hover:underline">github.com/meetupadhyay-dev</a></li>
         </ul>
       </div>
 
-     
-      <div className="w-full md:w-5/12 flex justify-center md:justify-end">
+
+      <div className="w-full md:w-5/12  justify-center md:justify-end hidden md:flex">
         <img
           src={email}
           alt="Contact"
           className="w-72 h-72 md:w-80 lg:w-96 object-cover rounded-xl shadow-lg"
         />
       </div>
+
     </section>
   );
 };
