@@ -12,7 +12,7 @@ const Certifications = () => {
         <img
           src={namasteReact}
           alt="Certification"
-          className="w-72 h-96 md:w-80 lg:w-96 object-cover rounded-xl shadow-lg"
+          className="w-72 h-96 md:w-80 lg:w-96 object-cover rounded-xl shadow-lg  "
         />
       </div>
 
@@ -35,7 +35,7 @@ const Certifications = () => {
         </p>
 
 
-        <ul className="list-disc text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-2 md:list-none">
+        <ul className="lg:list-disc text-[#8B949E] max-w-2xl mx-auto md:mx-0 text-sm md:text-base mt-6 space-y-2 ">
           {certifications.map((cert, index) => (
             <li key={index} className="font-semibold">
               <a

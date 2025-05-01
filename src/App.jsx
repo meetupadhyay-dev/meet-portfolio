@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Loader from './components/Loader'; // Import the loader
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Projects from './components/Projects';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -47,7 +48,7 @@ const App = () => {
       <div className="md:mx-16 md:py-8 space-y-16">
         <div data-aos="fade-up"><About /></div>
         <div data-aos="fade-up"><TechStack /></div>
-
+        <div data-aos="fade-up"><Projects /></div>
         <div data-aos="fade-up"><Certifications /></div>
         <div data-aos="fade-up"><Contact /></div>
       </div>
