@@ -3,7 +3,7 @@ import { email } from '../assets';
 
 const Contact = () => {
   return (
-    <section className="min-h-screen py-16 px-4 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
+    <section className="lg:min-h-screen md:height-[400px] py-16 px-4 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
 
       <div className="w-full md:w-7/12 text-center md:text-left relative">
 

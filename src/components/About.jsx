@@ -3,7 +3,7 @@ import { profile } from '../assets';
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen bg-[#161B22] py-16 px-4 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
+    <section className="min-h-screen bg-[#161B22] py-16 px-4 lg:px-20 flex flex-col md:flex-row items-center justify-between gap-10">
      
       <div className="w-full md:w-5/12 flex justify-center md:justify-end">
         <img

@@ -32,13 +32,13 @@ const App = () => {
   return (
     <main className="relative min-h-screen bg-[#0D1117] text-white">
       {/* Background image behind Header + Hero */}
-      <div className="relative min-h-screen">
+      <div className="relative lg:min-h-screen md:height-[50%]">
         <img
           src={codeBg}
           alt="code background"
           className="absolute inset-0 w-full h-full object-cover opacity-10 brightness-75 z-0 hidden md:block"
         />
-        <div className="relative z-10">
+        <div className="relative z-10" id='home'>
           <Header />
           <Hero />
         </div>
@@ -46,11 +46,11 @@ const App = () => {
 
       {/* Content sections with scroll animations */}
       <div className="md:mx-16 md:py-8 space-y-16">
-        <div data-aos="fade-up"><About /></div>
-        <div data-aos="fade-up"><TechStack /></div>
-        <div data-aos="fade-up"><Projects /></div>
-        <div data-aos="fade-up"><Certifications /></div>
-        <div data-aos="fade-up"><Contact /></div>
+        <div data-aos="fade-up" id="about"><About /></div>
+        <div data-aos="fade-up" id="skills"><TechStack /></div>
+        <div data-aos="fade-up" id="projects"><Projects /></div>
+        <div data-aos="fade-up" id="certifications"><Certifications /></div>
+        <div data-aos="fade-up" id="contact"><Contact /></div>
       </div>
 
       <Footer />

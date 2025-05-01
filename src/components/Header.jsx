@@ -49,7 +49,7 @@ const Header = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-
+                onClick={() => setToggleMenu(prev => !prev)}
                 className="block text-base font-medium px-3 py-2 rounded-md text-[#C9D1D9] hover:text-[#58A6FF] transition-colors duration-300"
               >
                 {item}
